@@ -1,0 +1,14 @@
+
+### `requirements.txt`
+
+
+```plaintext
+jsonschema
+datetime
+colorama
+pushbullet.py
+Flask
+hashlib
+smtplib
+email-validator
+requests
