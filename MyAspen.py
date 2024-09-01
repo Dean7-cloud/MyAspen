@@ -14,7 +14,7 @@ from email.mime.multipart import MIMEMultipart
 init(autoreset=True)
 
 DATA_FILE = "balance_data.json"
-PB_API_KEY = "o.YL3pSD29k41VVfg8fwUjGJN6rzRtzb48"  # Replace with your Pushbullet API key
+PB_API_KEY = "PB_API_KEY"  # Replace with your Pushbullet API key
 
 pb = Pushbullet(PB_API_KEY)
 
@@ -138,8 +138,8 @@ def send_notification(title, message, email=None):
         print(f"{Fore.RED}❌ Failed to send notification: {e}")
 
 def send_email_notification(subject, message, recipient_email):
-    sender_email = "nfjschannel@gmail.com"  # Replace with your email
-    sender_password = "a!g9HjB8BoPe4U"  # Replace with your email password
+    sender_email = "email@example.com"  # Replace with your email
+    sender_password = "password"  # Replace with your email password
 
     # Creating the email content
     msg = MIMEMultipart()
