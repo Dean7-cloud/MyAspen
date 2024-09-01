@@ -1,8 +1,5 @@
 
 ### `requirements.txt`
-
-
-```plaintext
 jsonschema
 datetime
 colorama
